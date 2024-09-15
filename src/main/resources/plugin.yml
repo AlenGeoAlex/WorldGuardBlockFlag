@@ -1,0 +1,6 @@
+name: WorldGuardBlockFlag
+version: '1.0'
+main: me.alenalex.worldGuardBlockFlag.WorldGuardBlockFlag
+api-version: '1.13'
+description: ""
+depend: [ WorldGuard ]
