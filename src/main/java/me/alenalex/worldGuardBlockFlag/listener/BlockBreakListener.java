@@ -38,6 +38,6 @@ public class BlockBreakListener extends WorldListener{
         }
 
         event.setCancelled(true);
-        tellErrorMessage(event.getPlayer(), event.getBlock().getWorld());
+        //tellErrorMessage(event.getPlayer(), event.getBlock().getWorld());
     }
 }

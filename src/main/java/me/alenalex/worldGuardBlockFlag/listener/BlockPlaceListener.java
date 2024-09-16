@@ -36,7 +36,7 @@ public class BlockPlaceListener extends WorldListener {
 
         if(!materials.contains(blockMaterial)){
             event.setCancelled(true);
-            tellErrorMessage(event.getPlayer(), event.getBlock().getWorld());
+            //tellErrorMessage(event.getPlayer(), event.getBlock().getWorld());
         }
     }
     
